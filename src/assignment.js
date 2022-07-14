@@ -21,8 +21,8 @@ function sumOfNumbers(arrayOfNumbers) {
     return ayoNumbers;
 }
 
-var addNum = [1,2,3,4,5,6,7];
-var sumNumbers = sumOfNumbers(addNum);
+const addNum = [1,2,3,4,5,6,7];
+const sumNumbers = sumOfNumbers(addNum);
 
 /**
  * Challenge - 2
