@@ -18,6 +18,7 @@ function sumOfNumbers(arrayOfNumbers) {
     for(var i in arrayOfNumbers){
         ayoNumbers += arrayOfNumbers[i];
     }
+    return ayoNumbers;
 }
 
 const sumNumbers = sumOfNumbers(numbers);
