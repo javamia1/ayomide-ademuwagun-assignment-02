@@ -21,8 +21,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return ayoNumbers;
 }
 
-const addNum = [1,2,3,4,5,6,7];
-const sumNumbers = sumOfNumbers(addNum);
+const sumNumbers = sumOfNumbers(numbers);
 
 /**
  * Challenge - 2
@@ -38,9 +37,7 @@ function countEvenNumbers(arrayOfNumbers) {
        (item % 2 === 0)).length;
 }
 
-const arrayEvenNumbers = [1,2,3,4,5,6,7,8,12,14];
-
-const evenNumbers = countEvenNumbers(arrayEvenNumbers)
+const evenNumbers = countEvenNumbers(numbers)
 
 
 /**
