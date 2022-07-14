@@ -20,8 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     }
     return ayoNumbers;
 }
-
-const sumNumbers = sumOfNumbers(numbers);
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -36,8 +35,7 @@ function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.filter(item =>
        (item % 2 === 0)).length;
 }
-
-const evenNumbers = countEvenNumbers(numbers)
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
